@@ -1,0 +1,153 @@
+---
+title: "What I learned at rstudio::conf"
+subtitle: "as the first-time attendee"
+author: "Zhi Yang"
+date: "2019/2/11"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default", "default-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    #chakra: "remark.js" 
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(tidy = FALSE, 
+                      eval = FALSE, tidy.opts=list(width.cutoff=40))
+```
+
+# `rstudio::conf` materials:
+https://github.com/rstudio/rstudio-conf
+
+<img src="imgs/rstudio2019.PNG" width="80%" align="middle" />
+
+---
+# Workshops 
+<img src="imgs/workshops.PNG " width="80%" align="middle" />
+
+---
+# Advanced R Markdown	
+<img src="imgs/Rmarkdown.PNG " align="middle" />
+
+---
+# Advanced R Markdown	
+<img src="imgs/markdown.jpg " width='18%' align="middle" />
+<img src="imgs/xaringan.PNG " width='18%' align="middle" />
+<img src="imgs/blogdown.PNG " width='18%' align="middle" />
+<img src="imgs/bookdown.PNG " width='18%' align="middle" />
+--
+<img src="imgs/path.PNG " align="middle" />
+
+---
+# My impression of all the talks: `Shiny`
+- Push straight to prod: API development with R and Tensorflow at T-Mobile.
+
+ <img src="imgs/tmobile.png " width='50%' align="middle" />
+
+- Shiny Phones: Analyzing Call Detail `Records in Prosecution`.
+
+- The Future's Shiny: Dashboards for Pioneering `Genomic Medicine` in R.
+
+- Building a highly flexible `enterprise-wide reporting system` using R Shiny.
+
+- Using Shiny and D3 to explore `EHR and biobank data` as a network. Application and lessons in developing robust, modular, and scalable shiny apps.
+
+---
+# RStudio Conference APP
+<img src="imgs/app4.png" width="25%" align="right" />
+<img src="imgs/app3.png" width="25%" align="right" />
+<img src="imgs/app1.png" width="25%" align="right" />
+<img src="imgs/app2.png" width="25%" align="right" />
+
+
+---
+# Tidyverse Dev Day `r emo::ji("thinking")`
+
+<img src="imgs/devday.png" width="80%" align="center" />
+--
+<img src="https://pbs.twimg.com/media/DxSfAUmVYAcLWAC.jpg:large " width="50%" align="left" />
+--
+<img src="imgs/dev.jpg" width="50%" align="right" />
+
+---
+# A question asker -> A Tidyverse contributor
+
+<img src="imgs/PR1.png" width="80%" align="middle" />
+
+--
+
+`Step 1. Find an issue`
+  - Issues tagged tidy-dev-day
+  
+  - Issues tagged help-wanted
+  
+  - Issues tagged reprex
+
+---
+# Tidyverse Dev Day
+
+`Step 2. Claim it`
+
+ - <img src="imgs/claim.png" width="75%" align="middle" />
+
+--
+
+`Step 3. Make a pull request (PR)!`
+
+ - Basic knowledge with Git
+ 
+ - Fork and clone the package then create `New Branch`
+ 
+ <img src="imgs/rstudio-new-branch.png" width="75%" align="middle" />
+
+--
+ - Push and Pull 
+ 
+ <img src="imgs/participants.PNG" width="10%" align="center" />
+
+---
+# First PR and First Merge
+
+.pull-top[
+ <img src="imgs/merged.png" width='75%' align="center" />
+]
+
+--
+.pull-bottom[
+ <img src="imgs/twitter.png" width='75%' align="center" />
+]
+
+---
+# Why is it important to contribute? 
+
+### For work
+
+<img src="imgs/airbnb.png" width='40%' align="left" />
+
+--
+### For yourself
+
+<img src="imgs/cycle.png" width='60%' align="right" />
+
+--
+### For the community
+
+<img src="imgs/community.png" width='40%' align="left" />
+
+---
+class: center, middle
+
+# Thanks! and Keep in touch
+<br>
+
+### `r icon::fa("twitter")` [@zhiiiyang](https://twitter.com/laeRusers)
+### `r icon::fa("github")`  [zhiiiyang](https://github.com/laeRusers/)
+### `r icon::fa("envelope")`  [zyang895@gmail.com](mailto:laerug@gmail.com)
+
+<br>
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan)

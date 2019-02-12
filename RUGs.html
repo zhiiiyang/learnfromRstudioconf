@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What I learned at rstudio::conf</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Zhi Yang" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# What I learned at rstudio::conf
+## as the first-time attendee
+### Zhi Yang
+### 2019/2/11
+
+---
+
+
+
+
+# `rstudio::conf` materials:
+https://github.com/rstudio/rstudio-conf
+
+&lt;img src="imgs/rstudio2019.PNG" width="80%" align="middle" /&gt;
+
+---
+# Workshops 
+&lt;img src="imgs/workshops.PNG " width="80%" align="middle" /&gt;
+
+---
+# Advanced R Markdown	
+&lt;img src="imgs/Rmarkdown.PNG " align="middle" /&gt;
+
+---
+# Advanced R Markdown	
+&lt;img src="imgs/markdown.jpg " width='18%' align="middle" /&gt;
+&lt;img src="imgs/xaringan.PNG " width='18%' align="middle" /&gt;
+&lt;img src="imgs/blogdown.PNG " width='18%' align="middle" /&gt;
+&lt;img src="imgs/bookdown.PNG " width='18%' align="middle" /&gt;
+--
+&lt;img src="imgs/path.PNG " align="middle" /&gt;
+
+---
+# My impression of all the talks: `Shiny`
+- Push straight to prod: API development with R and Tensorflow at T-Mobile.
+
+ &lt;img src="imgs/tmobile.png " width='50%' align="middle" /&gt;
+
+- Shiny Phones: Analyzing Call Detail `Records in Prosecution`.
+
+- The Future's Shiny: Dashboards for Pioneering `Genomic Medicine` in R.
+
+- Building a highly flexible `enterprise-wide reporting system` using R Shiny.
+
+- Using Shiny and D3 to explore `EHR and biobank data` as a network. Application and lessons in developing robust, modular, and scalable shiny apps.
+
+---
+# RStudio Conference APP
+&lt;img src="imgs/app4.png" width="25%" align="right" /&gt;
+&lt;img src="imgs/app3.png" width="25%" align="right" /&gt;
+&lt;img src="imgs/app1.png" width="25%" align="right" /&gt;
+&lt;img src="imgs/app2.png" width="25%" align="right" /&gt;
+
+
+---
+# Tidyverse Dev Day 🤔
+
+&lt;img src="imgs/devday.png" width="80%" align="center" /&gt;
+--
+&lt;img src="https://pbs.twimg.com/media/DxSfAUmVYAcLWAC.jpg:large " width="50%" align="left" /&gt;
+--
+&lt;img src="imgs/dev.jpg" width="50%" align="right" /&gt;
+
+---
+# A question asker -&gt; A Tidyverse contributor
+
+&lt;img src="imgs/PR1.png" width="80%" align="middle" /&gt;
+
+--
+
+`Step 1. Find an issue`
+  - Issues tagged tidy-dev-day
+  
+  - Issues tagged help-wanted
+  
+  - Issues tagged reprex
+
+---
+# Tidyverse Dev Day
+
+`Step 2. Claim it`
+
+ - &lt;img src="imgs/claim.png" width="75%" align="middle" /&gt;
+
+--
+
+`Step 3. Make a pull request (PR)!`
+
+ - Basic knowledge with Git
+ 
+ - Fork and clone the package then create `New Branch`
+ 
+ &lt;img src="imgs/rstudio-new-branch.png" width="75%" align="middle" /&gt;
+
+--
+ - Push and Pull 
+ 
+ &lt;img src="imgs/participants.PNG" width="10%" align="center" /&gt;
+
+---
+# First PR and First Merge
+
+.pull-top[
+ &lt;img src="imgs/merged.png" width='75%' align="center" /&gt;
+]
+
+--
+.pull-bottom[
+ &lt;img src="imgs/twitter.png" width='75%' align="center" /&gt;
+]
+
+---
+# Why is it important to contribute? 
+
+### For work
+
+&lt;img src="imgs/airbnb.png" width='40%' align="left" /&gt;
+
+--
+### For yourself
+
+&lt;img src="imgs/cycle.png" width='60%' align="right" /&gt;
+
+--
+### For the community
+
+&lt;img src="imgs/community.png" width='40%' align="left" /&gt;
+
+---
+class: center, middle
+
+# Thanks! and Keep in touch
+&lt;br&gt;
+
+### &lt;i class="fab  fa-twitter "></i><[@zhiiiyang](https://twitter.com/laeRusers)
+### &lt;i class="fab  fa-github "></i>< [zhiiiyang](https://github.com/laeRusers/)
+### &lt;i class="fas  fa-envelope "></i>< [zyang895@gmail.com](mailto:laerug@gmail.com)
+
+&lt;br&gt;
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
